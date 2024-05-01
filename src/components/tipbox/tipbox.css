@@ -1,0 +1,29 @@
+.tip {
+  padding: 3px;
+  margin: 3px;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  display: inline;
+  opacity: 0;
+  transition: 0.2s;
+  position: absolute;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.text {
+  display: inline;
+}
+
+.hover:hover > .tip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+}
