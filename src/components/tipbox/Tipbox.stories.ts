@@ -2,7 +2,6 @@ import Tipbox from './Tipbox';
 import type { Meta, StoryObj } from '@storybook/react';
 
 export default {
-  title: 'ui/Tipbox',
   component: Tipbox,
   tags: ['autodocs'],
   argTypes: {},
