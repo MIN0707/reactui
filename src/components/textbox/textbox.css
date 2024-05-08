@@ -5,4 +5,5 @@
 /* 스크롤바를 없애서 textarea의 잘못된 width값 맞추기 */
 .textbox::-webkit-scrollbar {
   width: 0;
+  height: 0;
 }
