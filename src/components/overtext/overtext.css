@@ -1,0 +1,17 @@
+.overtext {
+  width: 200px;
+  text-align: center;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
+
+.nowrap {
+  word-wrap: normal;
+}
+
+.many {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
